@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(190, 190, 190);
+    margin: 0;
+}
+nav{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    padding: 1.5%;
+    position: sticky;
+    top: 0%;
+    border: solid rgba(0, 0, 0, 0.568) 2.5px;
+}
+div{
+    border: solid rgb(206, 206, 206) 2px;
+    margin:  0.5%;
+    padding: 0.5%;
+    transition: 0.5s;
+}
+div:hover{
+    background-color: rgb(85, 85, 85);
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: black 1px 1px 2px;
+}
+h1{
+    text-align: center;
+    color: brown;
+    text-shadow: black 1px 1px 2px;
+    font-size: 40px;
+}
+h2{
+    margin: 0.03% 0.5%;
+    color: brown;
+    text-shadow: black 1px 1px 2px;
+    font-size: 25px;
+}
+
+p{
+    margin: 0.5%;
+    padding: 1%;
+    border: solid rgba(99, 99, 99, 0.747) 2px;
+    border-radius: 25px;
+}
